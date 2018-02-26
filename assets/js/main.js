@@ -178,7 +178,7 @@ init = function() {
   openMobileMenu();
   headerHeight();
   mailChimp();
-  // contactForm();
+  contactForm();
   $('[data-countdown]').each(function() {
     return $(this).countdown($(this).data('countdown'), function(e) {
       return $(this).html(e.strftime('<div><span>%D</span><span>days</span></div><div><span>%H</span><span>hours</span></div><div><span>%M</span><span>min</span></div> <div><span>%S</span><span>sec</span></div>'));
